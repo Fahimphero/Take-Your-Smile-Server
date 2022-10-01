@@ -917,7 +917,7 @@ async function run() {
 }
 run().catch(console.dir);
 app.get("/", (req, res) => {
-  res.send("Hello from Take Your Smile Server!");
+  res.send("Hello from Take Your Smile server!");
 });
 
 app.listen(port, () => {
